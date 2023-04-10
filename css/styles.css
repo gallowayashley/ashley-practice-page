@@ -1,0 +1,326 @@
+html {
+    background-color: whitesmoke;
+}
+
+body { 
+    font-family: 'Playfair Display', serif;
+    background-color: whitesmoke;
+    font-size: 15px;
+    margin: 0px;
+}
+
+/* Add a background color to top nav bar */
+.top-nav {
+    background-color: #5d7e61;
+    overflow: hidden;
+    text-align: center;
+    padding: 0px;
+    width: 1260px;
+}
+
+/* Styling the links inside the top nav bar */
+.top-nav a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+/* Change the color of links on hover in top nav menu */
+ .top-nav a:hover {
+    background-color: whitesmoke;
+    color: #000000;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+/* Change the main menu header image aka hero image */
+img {
+    width: 1260px;
+}
+
+.main-menu-header-image {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+}
+
+/* Change main menu header text aka hero text */
+.main-menu-header-text {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+/* Change the body horizontal rule style */
+hr {
+    border-style: solid none none;
+    border-color: BLACK;
+    border-width: 2px;
+    width: 40%;
+}
+
+/* Change the main body content */
+.main-body-container {
+    background-color: #F0EEED;
+    padding: 0px 250px 10px 250px;
+}
+
+.main-body-container h2 {
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+}
+
+/* Change the HTML card for each module */
+.HTML-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+}
+
+.HTML-card:hover {
+    box-shadow: 0 8px 16px 0 #000000;
+    background-color: #5d7e61;
+    color: #fff;
+}
+
+.HTML-container {
+    padding: 2px 16px;
+}
+
+/* Change the CSS card for each module */
+.CSS-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+}
+
+.CSS-card:hover {
+    box-shadow: 0 8px 16px 0 #000;
+    background-color: #5d7e61;
+    color: #fff;
+}
+
+.CSS-container {
+    padding: 2px 16px;
+}
+
+/* Change the Javascript card for each module */
+.JS-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+}
+
+.JS-card:hover {
+    box-shadow: 0 8px 16px 0 #000000;
+    background-color: #5d7e61;
+    color: #fff;
+}
+
+.JS-container {
+    padding: 2px 16px;
+}
+
+/* Change the Bootstrap card for each module */
+.BS-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+}
+
+.BS-card:hover {
+    box-shadow: 0 8px 16px 0 #000;
+    background-color: #5d7e61;
+    color: #fff;
+}
+
+.BS-container {
+    padding: 2px 16px;
+}
+
+/* Change the DOM card for each module */
+.DOM-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+}
+
+.DOM-card:hover {
+    box-shadow: 0 8px 16px 0 #000;
+    background-color: #5d7e61;
+    color: #fff;
+}
+
+.DOM-container {
+    padding: 2px 16px;
+}
+
+/* Change the jQuery card for each module */
+.jQ-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+}
+
+.jQ-card:hover {
+    box-shadow: 0 8px 16px 0 #000;
+    background-color: #5d7e61;
+    color: #fff;
+}
+
+.jQ-container {
+    padding: 2px 16px;
+}
+
+/* Change the Node.js card for each module */
+.node-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+}
+
+.node-card:hover {
+    box-shadow: 0 8px 16px 0 #000;
+    background-color: #5d7e61;
+    color: #fff;
+}
+
+.node-container {
+    padding: 2px 16px;
+}
+
+/* Change the API card for each module */
+.API-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+}
+
+.API-card:hover {
+    box-shadow: 0 8px 16px 0 #000;
+    background-color: #5d7e61;
+    color: #fff;
+}
+
+.API-container {
+    padding: 2px 16px;
+}
+
+/* Change the GIT card for each module */
+.GIT-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+}
+
+.GIT-card:hover {
+    box-shadow: 0 8px 16px 0 #000;
+    background-color: #5d7e61;
+    color: #fff;
+}
+
+.GIT-container {
+    padding: 2px 16px;
+}
+
+/* Change the security card for each module */
+.sec-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+}
+
+.sec-card:hover {
+    box-shadow: 0 8px 16px 0 #000;
+    background-color: #5d7e61;
+    color: #fff;
+}
+
+.sec-container {
+    padding: 2px 16px;
+}
+
+/* Change the database card for each module */
+.data-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+}
+
+.data-card:hover {
+    box-shadow: 0 8px 16px 0 #000;
+    background-color: #5d7e61;
+    color: #fff;
+}
+
+.data-container {
+    padding: 2px 16px;
+}
+
+/* Change the react.js card for each module */
+.react-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+}
+
+.react-card:hover {
+    box-shadow: 0 8px 16px 0 #000;
+    background-color: #5d7e61;
+    color: #fff;
+}
+
+.react-container {
+    padding: 2px 16px;
+}
